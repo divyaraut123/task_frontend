@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App main{
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Style for the image slider */
+.image-slider {
+  display: flex;
+  animation: scrollImages 5s linear infinite; /* Adjust the duration (5s) as needed */
+}
+
+/* Keyframes for the scrolling animation */
+@keyframes scrollImages {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+/* Style for individual images */
+.image {
+  width: 100vw;
+  height: 80vh;
+}

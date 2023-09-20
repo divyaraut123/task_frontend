@@ -1,0 +1,80 @@
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient( 90deg, rgb(176 230 231) 13%, rgb(160 164 124) 21%, rgba(0, 212, 255, 1) 33%);
+  color: white;
+  padding: 0 1vh;
+  height: 103px;
+  }
+  
+  .Title{
+    cursor: pointer;
+    font-size: 5rem;
+    color: aliceblue;
+  }
+  
+  .cout{
+    top: 50px;
+    padding: 8px;
+    border-radius: 100%;
+    position: absolute;
+    right: 70px;
+    background-color: #4d3229;
+    color: #f6f3f3;
+    display: flex;
+    align-items: center;
+  }
+  .popup{
+    color: red;
+    background-color: #f6f3f3;
+    position: fixed;
+    right: 117px;
+  }
+  .hiddenCout {
+    display: none;
+  }
+  .paymentBar{
+    background: #222f3a;
+    position: absolute;
+    padding: 180px;
+    z-index: 1;
+    right: 100px;
+    top: 103px;
+    border-radius: 225px 0px;
+    color: beige;
+  }
+  .paymentBar p{
+  font-size: 5vh;
+  position: relative;
+  top: -88px;
+  padding: 10px;
+  }
+  .paymentBar p {
+    margin: 0;
+  }
+    
+button {
+  margin: 2vh;
+  padding: 2vh;
+  border: 1px solid #4a3232;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+    
+  }
+  
+  .button-container button:last-child {
+    background-color: #28a745;
+    display: inline;
+    margin: 2vh;
+  }
+  
+  button:hover {
+    background-color: #67809d;
+    padding: 4vh;
+  }
+  
+  .button-container button:last-child:hover {
+    background-color: #1a9218;
+  }
