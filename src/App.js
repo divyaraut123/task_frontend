@@ -60,7 +60,7 @@ render(){
         />
          <footer style={{background: "black", color: "antiquewhite"}}>© 2023, Divya's Cocktails  Powered by Divya Refund policy Privacy policyTerms of service</footer>
       </main>
-      <h1> Hello Folks</h1>
+      
      
     </div>
     </>
